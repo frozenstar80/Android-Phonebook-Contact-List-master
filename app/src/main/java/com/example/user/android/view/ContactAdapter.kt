@@ -8,11 +8,11 @@ import com.example.user.android.model.Contact
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import android.view.LayoutInflater
-import com.example.user.android.R
 import android.graphics.drawable.GradientDrawable
 import android.view.View
 import android.widget.Filter
-import com.example.user.android.databinding.ItemContactBinding
+import com.example.user.contactlist.R
+import com.example.user.contactlist.databinding.ItemContactBinding
 import java.util.*
 
 class ContactAdapter internal constructor(private val context: Context) :
